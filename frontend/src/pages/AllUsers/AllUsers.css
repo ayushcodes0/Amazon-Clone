@@ -1,0 +1,54 @@
+
+
+.all-user-container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+}
+.all-user-container .heading{
+    margin-top: 15px;
+    color: rgb(41, 41, 41);
+}
+
+.users{
+    border-top: .3px solid rgb(213, 213, 213);
+}
+
+.all-user-info{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1.5fr 1fr 1.2fr .5fr;
+    align-items: center;
+    width: 72vw;
+    border-bottom: .3px solid rgb(213, 213, 213);
+    margin-top: 10px;
+}
+
+.profile-pic img{
+    width: 40px;
+}
+
+.profile-pic img:hover{
+    cursor: pointer;
+}
+
+.name h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);;
+}
+
+.email p , .role p, .created-date p{
+    font-size: 15px;
+    color: rgb(47, 47, 47);
+}
+
+.all-user-info .edit i{
+    cursor: pointer;
+    color: rgb(47, 47, 47);
+}
+
+.all-user-info .edit i:hover{
+    color: rgb(2, 179, 228);
+}

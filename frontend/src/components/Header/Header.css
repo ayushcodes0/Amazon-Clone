@@ -1,0 +1,165 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 7, 29);
+    padding: 0px 18px;
+
+}
+
+
+.logo img{
+   width: 100px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.loc-icon{
+    color: white;
+}
+.loc-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loc-info p{
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+}
+.loc-info h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 40vw;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+.search i{
+    padding: 12px;
+    border: 6px;
+    background-color: rgb(238, 194, 51);
+    color: black;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+
+.lang select{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+
+}
+
+.cart h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart i{
+    font-size: 18px;
+    color: white;
+}
+
+.account{
+    padding: 14px 0px;
+    width: 120px;
+}
+
+.drawer{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 67px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    border-radius: 6px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+
+}
+
+
+
+.signin-button button{
+    padding: 6px 70px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 208, 55);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.account:hover{
+    cursor: pointer;
+}
+
+
+.drawer hr{
+    width: 16vw;
+    border: .3px solid rgb(225, 225, 225);
+}
+
+.drawer-info p{
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.drawer-info p:hover{
+    color: rgb(255, 98, 0);
+    text-decoration: underline;
+}
+
+.fa-caret-up{
+    position: absolute;
+    color: white;
+    top: -12px;
+    left: 100px;
+    font-size: 22px;
+}
+
+.account:hover .drawer{
+    transform: translateY(0%);
+    opacity: 1;
+    z-index: 99;
+    cursor: pointer;
+}
+
+
+

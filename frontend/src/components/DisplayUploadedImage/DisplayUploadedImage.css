@@ -1,0 +1,11 @@
+.display-fullscreen{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.display-fullscreen img{
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}

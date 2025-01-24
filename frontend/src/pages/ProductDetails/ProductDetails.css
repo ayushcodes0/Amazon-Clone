@@ -1,0 +1,264 @@
+.hero{
+    width: 100%;
+    height: 92vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 40px;
+}
+
+.left-most{
+    width: 6vw;
+    height: 80vh;
+    /* background-color: blue; */
+}
+
+.images-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.image-inside-container{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 6px;
+    width: 75px;
+}
+
+.image-inside-container img{
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+
+.middle-image-container{
+    width: 38vw;
+    height: 65vh;
+    /* border: 1px solid rgb(201, 201, 201); */
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.middle-image-container img{
+    width: 38vw;
+    height: 65vh;
+    object-fit: contain;
+}
+
+.right-most{
+    padding: 0px 30px;
+}
+
+.product-information{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-information h5{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product-information hr{
+    border: .3px solid rgb(201, 201, 201);
+}
+
+.great-indian-festival{
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(205, 3, 3);
+    color: white;
+    width: 143px;
+    font-weight: 500;
+   
+}
+
+.display-price{
+    display: flex;
+    gap: 20px;
+
+    p{
+        font-size: 24px;
+    }
+    .selling-price{
+        font-weight: 500;
+    }
+    .price{
+        color: rgb(154, 154, 154);
+        text-decoration: line-through;
+    }
+}
+
+.taxes,.emi{
+    font-size: 14px;
+}
+
+.offer-heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p{
+        font-weight: 500;
+    }
+    
+}
+
+.offers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.offers .bank-offer{
+    display: flex;
+    gap: 10px;
+}
+
+.offers .bank-offer .off{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    width: 140px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 8px;
+
+    p{
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+.buy{
+    width: 15vw;
+    height: 50vh;
+    border: .3px solid rgb(183, 183, 183);
+    border-radius: 6px;
+}
+
+.buy .top-side{
+    width: 100%;
+    height: 60px;
+    border-bottom: .3px solid rgb(183, 183, 183);
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: end;
+}
+
+.buy .top-side .circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid rgb(183, 183, 183);;
+    background-color: white;
+}
+
+.hero{
+    position: relative;
+}
+
+.buy .bottom-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.buy .bottom-side .price-heading{
+    font-size: 24px;
+}
+
+.price-heading .delivery{
+    font-size: 14px;
+}
+
+.stocks h3{
+    font-weight: 500;
+    color: green;
+}
+
+.stocks-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.stocks-info .first{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 10px;
+}
+
+.stocks-info .first .light{
+    color: rgb(94, 94, 94);
+}
+
+.stocks-info .first .blue{
+    color: rgb(103, 156, 199);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.buttons .atc{
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(243, 198, 51);
+    padding: 7px 12px;
+}
+
+.buttons .buy-now{
+    border: none;
+    border-radius: 50px;
+    padding: 7px 12px;
+    background-color: orange;
+}
+
+.buttons .atc:hover{
+    background-color: rgb(229, 187, 48);
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.buttons .buy-now:hover{
+    background-color: rgb(232, 152, 3);
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+
+/* Product Zoom */
+
+.product-zoom{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    border: .3px solid black;
+    overflow: hidden;
+    
+}
+.middle-image-container:hover .product-zoom{
+    display: block;
+}
+

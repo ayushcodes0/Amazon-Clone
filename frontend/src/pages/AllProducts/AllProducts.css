@@ -1,0 +1,37 @@
+
+.all-products-container{
+    padding: 20px;
+    position: relative;
+}
+.all-products-container .top{
+    width: 72vw;
+    padding: 7px 0px;
+    border-bottom: .3px solid rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-products-container .top p{
+    padding: 6px 18px;
+    background-color: rgb(255, 208, 55);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    font-size: 14px;
+
+}
+
+.all-products-container .top p:hover{
+    background-color: rgb(230, 188, 49);
+    cursor: pointer;
+}
+
+.all-products {
+    padding: 20px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 70vh;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}

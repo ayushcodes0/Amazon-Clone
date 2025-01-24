@@ -1,0 +1,76 @@
+
+.banner{
+    position: relative;
+}
+
+.images{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.images img{
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.btns .prev{
+    position: absolute;
+    left: 18px;
+    top: 30%;
+}
+.btns .next{
+    position: absolute;
+    right: 18px;
+    top: 30%;
+}
+
+.btns .prev i, .btns .next i{
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+
+}
+.btns .prev:hover, .btns .next:hover{
+    cursor: pointer;
+}
+
+.content-on-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.abc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+}
+
+.abc h3{
+    height: 60px;
+}
+
+.abc p{
+    font-size: 12px;
+    color: teal;
+}
+
+.abc p:hover{
+    color: rgb(255, 111, 0);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+
+

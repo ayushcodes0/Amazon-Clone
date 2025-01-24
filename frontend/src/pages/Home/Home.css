@@ -1,0 +1,21 @@
+.home{
+    position: relative;
+}
+.category-wise-product{
+    padding-top: 100px;
+    /* background-color: rgb(205, 205, 205); */
+    overflow: hidden;
+}
+
+.home-body{
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(243, 249, 255), rgb(178, 178, 178));
+    /* background-color:rgb(205, 205, 205);  */
+}
+
+.category-wise-product hr{
+    border: 0;
+    height: 1px; /* Set the height of the line */
+    background-color: rgb(231, 231, 231)
+}
+

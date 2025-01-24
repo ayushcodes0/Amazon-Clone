@@ -1,0 +1,19 @@
+.sec-header-container{
+    padding: 9px 18px;
+    background-color: #232f3e;
+}
+
+.sec-header-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sec-header-container ul li{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
