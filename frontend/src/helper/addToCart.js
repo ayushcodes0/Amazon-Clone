@@ -16,7 +16,6 @@ const addToCart = async(e,id)=>{
         })
     })
 
-    console.log("Calling add to cart function"); 
 
     const data = await response.json();
     if(data.success){
